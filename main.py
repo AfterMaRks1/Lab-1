@@ -26,3 +26,12 @@ if __name__ == "__main__":
             a, b = get_numbers()
             result = add(a, b)
             print(f"Сумма: {result}")
+
+            def subtract(a, b):
+                return a - b
+
+            def main():
+                print("Простой калькулятор")
+                a, b = get_numbers()
+                print(f"Сумма: {add(a, b)}")
+                print(f"Разность: {subtract(a, b)}")
