@@ -35,3 +35,13 @@ if __name__ == "__main__":
                 a, b = get_numbers()
                 print(f"Сумма: {add(a, b)}")
                 print(f"Разность: {subtract(a, b)}")
+
+                def multiply(a, b):
+                    return a * b
+
+                def main():
+                    print("Простой калькулятор")
+                    a, b = get_numbers()
+                    print(f"Сумма: {add(a, b)}")
+                    print(f"Разность: {subtract(a, b)}")
+                    print(f"Произведение: {multiply(a, b)}")
