@@ -58,3 +58,11 @@ if __name__ == "__main__":
                         print(f"Разность: {subtract(a, b)}")
                         print(f"Произведение: {multiply(a, b)}")
                         print(f"Частное: {divide(a, b)}")
+
+                        def main():
+                            print("=== Простой калькулятор ===")
+                            a, b = get_numbers()
+                            print(f"{a} + {b} = {add(a, b)}")
+                            print(f"{a} - {b} = {subtract(a, b)}")
+                            print(f"{a} * {b} = {multiply(a, b)}")
+                            print(f"{a} / {b} = {divide(a, b)}")
