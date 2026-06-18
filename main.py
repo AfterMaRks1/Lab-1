@@ -45,3 +45,16 @@ if __name__ == "__main__":
                     print(f"Сумма: {add(a, b)}")
                     print(f"Разность: {subtract(a, b)}")
                     print(f"Произведение: {multiply(a, b)}")
+
+                    def divide(a, b):
+                        if b == 0:
+                            return "Ошибка: деление на ноль"
+                        return a / b
+
+                    def main():
+                        print("Простой калькулятор")
+                        a, b = get_numbers()
+                        print(f"Сумма: {add(a, b)}")
+                        print(f"Разность: {subtract(a, b)}")
+                        print(f"Произведение: {multiply(a, b)}")
+                        print(f"Частное: {divide(a, b)}")
